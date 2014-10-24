@@ -21,7 +21,7 @@ Growl.notify("This is a notification")
 The API accepts messages in a string format, as well as a list. If the first argument is a list, the first object is the title line, with subsequent lines being the body of the notification.
 
 ```Elixir
-Growl.notify(["Example", "This is an example notification"]
+Growl.notify(["Example", "This is an example notification"])
 ```
 
 would give the following notification:
