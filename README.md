@@ -7,7 +7,7 @@ A simple wrapper to the command line interface for the [Growl OSX notification s
 ```Elixir
 defp deps do
   [
-    {:growl, github: "zhallett/growl"}
+    {:growl, github: "zachallett/growl"}
   ]
 ```
 
@@ -26,7 +26,7 @@ Growl.notify(["Example", "This is an example notification"])
 
 would give the following notification:
 
-![Forced Update](https://github.com/zhallett/growl/blob/master/multi_line_notification.png?raw=true "Multi-Line notification Screenshot"))
+![Forced Update](https://github.com/zachallett/growl/blob/master/multi_line_notification.png?raw=true "Multi-Line notification Screenshot"))
 
 ## Contributing
 
