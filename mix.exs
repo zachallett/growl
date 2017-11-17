@@ -9,7 +9,7 @@ defmodule Growl.Mixfile do
       version:      "0.0.3",
       elixir:       ">= 1.4.0",
       deps:         [],
-      description:  @description,
+      description:  "A simple wrapper to the command line interface for the [Growl OSX notification system](http://growl.info/)",
       package:      package(),
     ]
   end
