@@ -6,11 +6,11 @@ defmodule Growl.Mixfile do
   def project do
     [
       app:          :growl,
-      version:      "0.0.2",
-      elixir:       ">= 1.0.0",
+      version:      "0.0.3",
+      elixir:       ">= 1.4.0",
       deps:         [],
       description:  @description,
-      package:      package,
+      package:      package(),
     ]
   end
 
@@ -25,7 +25,7 @@ defmodule Growl.Mixfile do
       contributors: [ "Zac Hallett <zac.hallett@gmail.com>"],
       licenses:     [ "MIT. See LICENSE.md" ],
       links:        %{
-                       "GitHub" => "https://github.com/zhallett/growl",
+                       "GitHub" => "https://github.com/zachallett/growl",
                     }
     ]
   end
